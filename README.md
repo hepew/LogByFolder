@@ -1,0 +1,4 @@
+# LogByFolder
+Projeto teste sobre um site de artigos retratando diversos assuntos! Feito por HTML5 e CSS3 e futuramente com adições em Js. ->
+Esse projeto não tem finaidade em compras ou assinaturas, somente alguns compilados de sites criados por mim retratando diversos assuntos, como pessoas de sucesso, como foi feito tal programa que todos conhecemos (como Windows, Android e entre outros) .
+Esse site pode ser futuramente publicado no Google. --> Mas a principal finalidade desse projeto é somente para o meu aprendizado, o que eu aprender, adicionarei cada vez mais coisa nele. Espero que tenha compreendido com o que eu disse e espero você para avaliar o meu site! :) 
