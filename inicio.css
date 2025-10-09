@@ -6,20 +6,6 @@
     padding: 0px;
     font-family: var(--fontepadrao);
 }
-div.v{
-    display: inline-block;
-    font-size: 2em;
-    margin-right: -2px;
-}
-div.upd{
-    text-align: right;
-    font-size: 0.93em;
-    margin-top: -20px;
-    font-weight: bold;
-}
-abbr{
-    text-decoration: none
-}
 :root{
     --fontepadrao: Arial, sans-serif;
     --fonte01: 'PT Serif',sans-serif;
@@ -27,69 +13,21 @@ abbr{
     --cor01: #EFE182;
     --cor02: #F0D52B;
 }
-body{
-    background-color: beige;
-}
 
-header{
-    background-image: linear-gradient(to bottom, var(--cor01) 40%, var(--cor02));
-    box-shadow: 1px 3px 11px 2px rgba(0, 0, 0, 0.479);
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
+h1{
 
-h1.log{
-    display: inline-block;
-    font-size: 2.2em;
-    padding-left: 10px;
-    font-family: var(--fonte01);
-    font-weight: 700;
-    color: black;
-    font-variant: small-caps;
-}
-a{
-    text-decoration: none;
 
-    margin-left: 3px;
-    font-weight: bold;
-    padding: 10px;
+font-size: 2.2em;
+font-family: var(--fonte01);
+color: black;
+font-variant: small-caps;
 }
-div.link{
-    di
+div.upd{
     text-align: right;
+    
 }
-a.link:hover{
-    background-color: rgba(240, 248, 255, 0.425);
-    border-radius: 5px;
-    transition-duration: 0.5s;
-}
-
-section{
-    padding-top: 10px;
-    padding-left:25px;
-    padding-right: 25px;
-    text-indent: 30px;
-    max-width: 700px;
-    min-width: 300px;
-    background-color: white;
-    text-align: justify;
-    line-height: 25px;
-}
-section > h1{
-    padding-bottom: 5px;
-    font-size: 1.5em;
-}
-section > p{
-    padding-top: 10px;
-}
-
-footer{
-    background-color: black;
-    color: white;
-    font-size: 1em;
-    text-align: center;
-    padding: 10px;
-}
-.fim{
-    padding-bottom: 20px;
+abbr{
+    font-size: 0.85em;
+    text-decoration: none;
+    font-weight: 600;
 }
