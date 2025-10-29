@@ -1,12 +1,9 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'minecraft';
-    src: url('fontes/minecraft/Minecraft.ttf');
-}
-@font-face {
-    
-}
 
+@font-face {
+    font-family: 'death';
+    src: url('fontes/death_record/Death\ Record.otf') format('opentype');
+}
 *{
     padding: 0;
     margin: 0;
@@ -14,11 +11,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-}
+
 header{
+    background-color: black;
     border: 2px dashed black;
     display: flex;
     flex-flow: row nowrap;
@@ -26,18 +21,19 @@ header{
     align-items: center;
 }
 header h1{
+    color: white;
     padding: 10px;
-    font-family: 'mistake';
+    font-family: 'death';
     cursor: pointer;
 }
 header > nav{
     display: flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
-    border: 1px dashed blue;
+    
 }
 nav > a{
-    color: black;
+    color: rgb(255, 255, 255);
     margin-right: 10px;
     text-decoration: none;
     font-size: 0.9em;
@@ -46,17 +42,26 @@ nav > a{
 a:hover{
     transition: 0.3s;
     border-radius: 5px;
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: #000000;
 }
-section{
 
-    max-width: 300px;
+section.media{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    background: url('Pato\ de\ Borracha.jpeg') center center no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border: 2px dashed navy;
 }
-section h2{
-    font-size: 1.1em;
+
+section.texto{
+
+
+    border: 2px dashed red;
 }
-section p{
-    font-size: 0.8em;
-    line-height: 22px;
-}
+
