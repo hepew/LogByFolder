@@ -34,17 +34,29 @@ header > nav{
     display: flex;
     justify-content: flex-end;
     flex-flow: row nowrap;
-border: 1px dashed blue;
+    border: 1px dashed blue;
 }
 nav > a{
     color: black;
     margin-right: 10px;
     text-decoration: none;
-    font-size: 1.2,5em;
+    font-size: 0.9em;
+    font-weight: bold;
 }
 a:hover{
-    transition: 0.2s;
+    transition: 0.3s;
     border-radius: 5px;
     background-color: black;
     color: rgb(255, 255, 255);
+}
+section{
+
+    max-width: 300px;
+}
+section h2{
+    font-size: 1.1em;
+}
+section p{
+    font-size: 0.8em;
+    line-height: 22px;
 }
