@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../Pato\ de\ Borracha.jpeg') repeat;
+    background-size: 75px;
+}
+div{
+
+    background: url('../Pato\ de\ Borracha.jpeg') no-repeat center;
+    background-size: cover;
+    width: 70px;
+    height: 70px;
+}
+
+div.pato{
+    background: url('../Pato_de_Borracha-removebg-preview.png') no-repeat center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    transform: translate(25%, 25%);
+    top: -50%;
+    left: -50%;
+    
+}
